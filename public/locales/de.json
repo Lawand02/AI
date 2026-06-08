@@ -1,0 +1,160 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "projects": "Projekte",
+    "github": "GitHub",
+    "experience": "Erfahrung",
+    "achievements": "Errungenschaften",
+    "blog": "Blog",
+    "now": "Jetzt",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin",
+    "name": "Lawand Yousef",
+    "tagline": "Computerarchitektur-Ingenieur & Full-Stack-Entwickler",
+    "description": "Ich entwerfe digitale Systeme und entwickle moderne Webanwendungen. Leidenschaftlich daran interessiert, die Grenzen von Hardware und Software zu erweitern.",
+    "viewProjects": "Projekte anzeigen",
+    "contactMe": "Kontaktiere mich",
+    "downloadResume": "Lebenslauf herunterladen",
+    "scrollDown": "Nach unten scrollen"
+  },
+  "about": {
+    "title": "Über mich",
+    "subtitle": "Wer ich bin",
+    "description": "Ich bin ein Computerarchitektur-Ingenieur ursprünglich aus Afrin, mit Wohnsitz in Qamishli, Kurdistan, mit einer tiefen Leidenschaft für digitale Logikdesign, eingebettete Systeme und Full-Stack-Webentwicklung. Meine Arbeit reicht vom Design von Pipelined-RISC-V-Prozessoren in VHDL bis zur Entwicklung moderner Webanwendungen mit React und Laravel.",
+    "mission": "Ich glaube an die Überbrückung der Kluft zwischen Hardware und Software – durch die Entwicklung effizienter, intelligenter Systeme, die reale Probleme lösen.",
+    "location": "📍 Lebt in Qamishli, Kurdistan",
+    "origin": "📍 Aus Afrin, Kurdistan",
+    "company": "Acornassociated",
+    "focus": "Computerarchitektur",
+    "email": "MrRobot02@duck.com",
+    "projects": "Projekte",
+    "experience": "Erfahrung",
+    "technologies": "Technologien",
+    "languages": "Sprachen"
+  },
+  "skills": {
+    "title": "Fähigkeiten & Expertise",
+    "subtitle": "Technologien, mit denen ich arbeite",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "devops": "DevOps & Werkzeuge",
+    "hardware": "Hardware & Embedded",
+    "ai": "KI & Maschinelles Lernen",
+    "design": "Design",
+    "databases": "Datenbanken",
+    "languages": "Programmiersprachen"
+  },
+  "projects": {
+    "title": "Ausgezeichnete Projekte",
+    "subtitle": "Was ich gebaut habe",
+    "all": "Alle",
+    "web": "Web",
+    "hardware": "Hardware",
+    "vhdl": "VHDL",
+    "ai": "KI/ML",
+    "embedded": "Eingebettet",
+    "python": "Python",
+    "viewProject": "Projekt ansehen",
+    "viewGithub": "GitHub",
+    "liveDemo": "Live-Demo",
+    "noProjects": "Keine Projekte für diesen Filter gefunden."
+  },
+  "github": {
+    "title": "GitHub-Aktivität",
+    "subtitle": "Meine Entwicklungsreise",
+    "contributions": "Beiträge",
+    "repos": "Repositorys",
+    "stars": "Sterne",
+    "forks": "Forks",
+    "topLanguages": "Top-Sprachen",
+    "contributionGraph": "Beitragsgraf",
+    "lastYear": "Beiträge des letzten Jahres"
+  },
+  "experience": {
+    "title": "Erfahrung",
+    "subtitle": "Meine Karrierereise",
+    "freelance": "Freiberufliche Arbeit",
+    "opensource": "Open Source",
+    "present": "Gegenwart"
+  },
+  "achievements": {
+    "title": "Errungenschaften",
+    "subtitle": "Zertifikate & Auszeichnungen",
+    "viewCredential": "Zertifikat ansehen"
+  },
+  "terminal": {
+    "title": "Interaktives Terminal",
+    "subtitle": "Gib 'help' ein, um mehr über mich zu erfahren",
+    "help": "Verfügbare Befehle: about, skills, projects, contact, social, clear, help",
+    "intro": "Willkommen im interaktiven Terminal von Lawand. Gib 'help' ein, um verfügbare Befehle zu sehen.",
+    "about": "Ich bin ein Computerarchitektur-Ingenieur aus Qamishli, Kurdistan. Ich spezialisiere mich auf digitales Logikdesign (VHDL), eingebettete Systeme, Full-Stack-Webentwicklung (React, Laravel, Django) und KI/ML mit TensorFlow.",
+    "skills": "Fähigkeiten: VHDL, C/C++, Python, JavaScript, TypeScript, React, Laravel, Django, Docker, TensorFlow, Arduino, Altium, Figma und mehr.",
+    "projects": "Ausgezeichnete Projekte: Spider-Robot (Hexapod-Roboter), RV32I-Pipelined-CPU (RISC-V-Prozessor), face-detection (Python), School-Management-System.",
+    "contact": "E-Mail: MrRobot02@duck.com | GitHub: github.com/Lawand02 | X: @yousef_lawand",
+    "social": "GitHub: github.com/Lawand02 | X: @yousef_lawand | Instagram: @yousef_lawand02",
+    "notFound": "Befehl nicht gefunden. Gib 'help' für verfügbare Befehle ein."
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Lass uns zusammenarbeiten",
+    "name": "Dein Name",
+    "email": "Deine E-Mail",
+    "subject": "Betreff",
+    "message": "Deine Nachricht",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "success": "Nachricht erfolgreich gesendet! Ich werde mich bald bei dir melden.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+    "validation": {
+      "name": "Name ist erforderlich",
+      "email": "Bitte gib eine gültige E-Mail-Adresse ein",
+      "subject": "Betreff ist erforderlich",
+      "message": "Nachricht ist erforderlich"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Gedanken & Einblicke",
+    "readMore": "Weiterlesen",
+    "noPosts": "Noch keine Beiträge. Schau bald wieder vorbei!",
+    "backToBlog": "Zurück zum Blog",
+    "publishedOn": "Veröffentlicht am"
+  },
+  "now": {
+    "title": "Jetzt",
+    "subtitle": "Was ich gerade mache",
+    "working": "Aktuell arbeite ich an",
+    "learning": "Aktuell lerne ich",
+    "reading": "Aktuell lese ich",
+    "building": "Aktuell baue ich",
+    "workingDesc": "Verbessere mein RISC-V-CPU-Design und erstelle eine neue Portfolio-Erfahrung.",
+    "learningDesc": "Fortgeschrittene Computerarchitektur-Konzepte und Cloud-native Entwicklung.",
+    "readingDesc": "Computer Organization and Design von Patterson & Hennessy",
+    "buildingDesc": "Dieses Portfolio, Open-Source-Beiträge und Embedded-Systems-Projekte."
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "copyright": "Alle Rechte vorbehalten.",
+    "builtWith": "Erstellt mit Next.js, Tailwind CSS und Framer Motion"
+  },
+  "theme": {
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "language": {
+    "en": "English",
+    "ku": "Kurdî",
+    "ar": "العربية",
+    "de": "Deutsch"
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "Was Leute sagen",
+    "placeholder": "Testimonials kommen bald..."
+  }
+}

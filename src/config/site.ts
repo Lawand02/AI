@@ -1,0 +1,36 @@
+export const siteConfig = {
+  name: "Lawand Yousef",
+  title: "Lawand Yousef - Computer Architecture Engineer & Developer",
+  description:
+    "Portfolio of Lawand Yousef — Computer Architecture engineer specializing in digital logic design, embedded systems, and full-stack development.",
+  url: "https://lawand02.github.io/AI",
+  ogImage: "https://lawand02.github.io/AI/og.png",
+  author: "Lawand Yousef",
+  location: "Qamishli, Kurdistan",
+  email: "MrRobot02@duck.com",
+  focus: "Computer Architecture",
+  origin: "Afrin, Kurdistan",
+  currentLocation: "Qamishli, Kurdistan",
+  study: "Higher Institute of Mechatronics, Rojava University",
+  studyUrl: "https://www.rojava-uni.ac/en",
+  company: "Acornassociated",
+  companyUrl: "https://acornassociated.org/",
+  social: {
+    github: "https://github.com/Lawand02",
+    twitter: "https://x.com/yousef_lawand",
+    instagram: "https://www.instagram.com/yousef_lawand02",
+    linkedin: "#",
+  },
+  stats: {
+    projects: 8,
+    experience: 3,
+    technologies: 25,
+  },
+  currentlyWorking: "Searching about AI models and research",
+  languages: [
+    { name: "Kurdish", level: "Native" },
+    { name: "Arabic", level: "Very Good" },
+    { name: "English", level: "Very Good" },
+    { name: "German", level: "Little" },
+  ],
+};

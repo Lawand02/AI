@@ -1,0 +1,160 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "عني",
+    "skills": "المهارات",
+    "projects": "المشاريع",
+    "github": "جيت هب",
+    "experience": "الخبرة",
+    "achievements": "الإنجازات",
+    "blog": "المدونة",
+    "now": "الآن",
+    "contact": "اتصل بي"
+  },
+  "hero": {
+    "greeting": "مرحباً، أنا",
+    "name": "لواند يوسف",
+    "tagline": "مهندس معمارية حواسيب ومطور Full-Stack",
+    "description": "أصمم الأنظمة الرقمية وأبني تطبيقات الويب الحديثة. شغوف بدفع حدود العتاد والبرمجيات.",
+    "viewProjects": "عرض المشاريع",
+    "contactMe": "اتصل بي",
+    "downloadResume": "تحميل السيرة الذاتية",
+    "scrollDown": "التمرير لأسفل"
+  },
+  "about": {
+    "title": "عني",
+    "subtitle": "من أنا",
+    "description": "أنا مهندس معمارية حواسيب أصلاً من عفرين، وأقيم حالياً في قامشلو، كردستان، شغوف بتصميم المنطق الرقمي والأنظمة المدمجة وتطوير الويب Full-Stack. يمتد عملي من تصميم معالجات RISC-V ذات المراحل المتعددة (Pipelined) بلغة VHDL إلى بناء تطبيقات ويب حديثة باستخدام React و Laravel.",
+    "mission": "أؤمن بضرورة سد الفجوة بين العتاد والبرمجيات — من خلال إنشاء أنظمة فعالة وذكية تحل المشكلات الحقيقية.",
+    "location": "📍 يقيم في قامشلو، كردستان",
+    "origin": "📍 من عفرين، كردستان",
+    "company": "Acornassociated",
+    "focus": "معمارية الحواسيب",
+    "email": "MrRobot02@duck.com",
+    "projects": "المشاريع",
+    "experience": "الخبرة",
+    "technologies": "التقنيات",
+    "languages": "اللغات"
+  },
+  "skills": {
+    "title": "المهارات والخبرات",
+    "subtitle": "التقنيات التي أعمل بها",
+    "frontend": "الواجهة الأمامية",
+    "backend": "الواجهة الخلفية",
+    "devops": "DevOps والأدوات",
+    "hardware": "العتاد والأنظمة المدمجة",
+    "ai": "الذكاء الاصطناعي والتعلم الآلي",
+    "design": "التصميم",
+    "databases": "قواعد البيانات",
+    "languages": "لغات البرمجة"
+  },
+  "projects": {
+    "title": "المشاريع المميزة",
+    "subtitle": "ما قمت ببنائه",
+    "all": "الكل",
+    "web": "الويب",
+    "hardware": "العتاد",
+    "vhdl": "VHDL",
+    "ai": "الذكاء الاصطناعي",
+    "embedded": "المدمجة",
+    "python": "Python",
+    "viewProject": "عرض المشروع",
+    "viewGithub": "جيت هب",
+    "liveDemo": "عرض مباشر",
+    "noProjects": "لم يتم العثور على مشاريع لهذا الفلتر."
+  },
+  "github": {
+    "title": "نشاط GitHub",
+    "subtitle": "رحلتي في التطوير",
+    "contributions": "المساهمات",
+    "repos": "المستودعات",
+    "stars": "النجوم",
+    "forks": "الفروع",
+    "topLanguages": "أهم اللغات",
+    "contributionGraph": "رسم بياني للمساهمات",
+    "lastYear": "مساهمات العام الماضي"
+  },
+  "experience": {
+    "title": "الخبرة",
+    "subtitle": "رحلتي المهنية",
+    "freelance": "العمل الحر",
+    "opensource": "المصادر المفتوحة",
+    "present": "حالياً"
+  },
+  "achievements": {
+    "title": "الإنجازات",
+    "subtitle": "الشهادات والجوائز",
+    "viewCredential": "عرض الشهادة"
+  },
+  "terminal": {
+    "title": "الطرفية التفاعلية",
+    "subtitle": "اكتب 'help' لتعرف عني",
+    "help": "الأوامر المتاحة: about, skills, projects, contact, social, clear, help",
+    "intro": "مرحباً بك في الطرفية التفاعلية للواند. اكتب 'help' لرؤية الأوامر المتاحة.",
+    "about": "أنا مهندس معمارية حواسيب من قامشلو، كردستان. أتخصص في تصميم المنطق الرقمي (VHDL)، الأنظمة المدمجة، تطوير الويب Full-Stack (React، Laravel، Django)، والذكاء الاصطناعي باستخدام TensorFlow.",
+    "skills": "المهارات: VHDL، C/C++، Python، JavaScript، TypeScript، React، Laravel، Django، Docker، TensorFlow، Arduino، Altium، Figma، والمزيد.",
+    "projects": "المشاريع المميزة: Spider-Robot (روبوت سداسي الأرجل)، RV32I-Pipelined-CPU (معالج RISC-V)، face-detection (Python)، School-Management-System.",
+    "contact": "البريد: MrRobot02@duck.com | GitHub: github.com/Lawand02 | X: @yousef_lawand",
+    "social": "GitHub: github.com/Lawand02 | X: @yousef_lawand | Instagram: @yousef_lawand02",
+    "notFound": "الأمر غير موجود. اكتب 'help' لقائمة الأوامر."
+  },
+  "contact": {
+    "title": "تواصل معي",
+    "subtitle": "دعنا نعمل معاً",
+    "name": "اسمك",
+    "email": "بريدك الإلكتروني",
+    "subject": "الموضوع",
+    "message": "رسالتك",
+    "send": "إرسال الرسالة",
+    "sending": "جارٍ الإرسال...",
+    "success": "تم إرسال الرسالة بنجاح! سأتواصل معك قريباً.",
+    "error": "حدث خطأ ما. الرجاء المحاولة مرة أخرى.",
+    "validation": {
+      "name": "الاسم مطلوب",
+      "email": "الرجاء إدخال بريد إلكتروني صحيح",
+      "subject": "الموضوع مطلوب",
+      "message": "الرسالة مطلوبة"
+    }
+  },
+  "blog": {
+    "title": "المدونة",
+    "subtitle": "أفكار ورؤى",
+    "readMore": "اقرأ المزيد",
+    "noPosts": "لا توجد مقالات بعد. تحقق لاحقاً!",
+    "backToBlog": "العودة إلى المدونة",
+    "publishedOn": "نُشر في"
+  },
+  "now": {
+    "title": "الآن",
+    "subtitle": "ماذا أفعل حالياً",
+    "working": "أعمل حالياً على",
+    "learning": "أتعلم حالياً",
+    "reading": "أقرأ حالياً",
+    "building": "أبني حالياً",
+    "workingDesc": "تحسين تصميم معالج RISC-V وبناء تجربة بورتفوليو جديدة.",
+    "learningDesc": "مفاهيم متقدمة في معمارية الحواسيب والتطوير السحابي.",
+    "readingDesc": "كتاب Computer Organization and Design لمؤلفيه Patterson & Hennessy",
+    "buildingDesc": "هذا البورتفوليو، مساهمات مفتوحة المصدر، ومشاريع الأنظمة المدمجة."
+  },
+  "footer": {
+    "contact": "اتصل",
+    "copyright": "جميع الحقوق محفوظة.",
+    "builtWith": "بُني باستخدام Next.js و Tailwind CSS و Framer Motion"
+  },
+  "theme": {
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام"
+  },
+  "language": {
+    "en": "English",
+    "ku": "Kurdî",
+    "ar": "العربية",
+    "de": "Deutsch"
+  },
+  "testimonials": {
+    "title": "الشهادات",
+    "subtitle": "ماذا يقول الآخرون",
+    "placeholder": "الشهادات قريباً..."
+  }
+}

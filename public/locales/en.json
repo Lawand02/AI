@@ -1,0 +1,160 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "github": "GitHub",
+    "experience": "Experience",
+    "achievements": "Achievements",
+    "blog": "Blog",
+    "now": "Now",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Lawand Yousef",
+    "tagline": "Computer Architecture Engineer & Full-Stack Developer",
+    "description": "I design digital systems and build modern web applications. Passionate about AI models and research, pushing the boundaries of hardware and software.",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me",
+    "downloadResume": "Download Resume",
+    "scrollDown": "Scroll down"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Who I Am",
+    "description": "I am a Computer Architecture engineer originally from Afrin, currently based in Qamishli, Kurdistan. I studied Mechatronics at Rojava University and work as a Web Developer at Acornassociated. I have a deep passion for digital logic design, embedded systems, and full-stack web development. My work spans from designing pipelined RISC-V processors in VHDL to building modern web applications with React and Laravel.",
+    "mission": "I believe in bridging the gap between hardware and software — creating efficient, intelligent systems that solve real-world problems.",
+    "location": "📍 Lives in Qamishli, Kurdistan",
+    "origin": "📍 From Afrin, Kurdistan",
+    "company": "Acornassociated",
+    "focus": "Computer Architecture",
+    "email": "MrRobot02@duck.com",
+    "projects": "Projects",
+    "experience": "Experience",
+    "technologies": "Technologies",
+    "languages": "Languages"
+  },
+  "skills": {
+    "title": "Skills & Expertise",
+    "subtitle": "Technologies I Work With",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "devops": "DevOps & Tools",
+    "hardware": "Hardware & Embedded",
+    "ai": "AI & Machine Learning",
+    "design": "Design",
+    "databases": "Databases",
+    "languages": "Languages"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "What I've Built",
+    "all": "All",
+    "web": "Web",
+    "hardware": "Hardware",
+    "vhdl": "VHDL",
+    "ai": "AI/ML",
+    "embedded": "Embedded",
+    "python": "Python",
+    "viewProject": "View Project",
+    "viewGithub": "GitHub",
+    "liveDemo": "Live Demo",
+    "noProjects": "No projects found for this filter."
+  },
+  "github": {
+    "title": "GitHub Activity",
+    "subtitle": "My Development Journey",
+    "contributions": "Contributions",
+    "repos": "Repositories",
+    "stars": "Stars",
+    "forks": "Forks",
+    "topLanguages": "Top Languages",
+    "contributionGraph": "Contribution Graph",
+    "lastYear": "Last year contributions"
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "My Career Journey",
+    "freelance": "Freelance Work",
+    "opensource": "Open Source",
+    "present": "Present"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "subtitle": "Certifications & Awards",
+    "viewCredential": "View Credential"
+  },
+  "terminal": {
+    "title": "Interactive Terminal",
+    "subtitle": "Type 'help' to learn about me",
+    "help": "Available commands: about, skills, projects, contact, social, clear, help",
+    "intro": "Welcome to Lawand's interactive terminal. Type 'help' to see available commands.",
+    "about": "I am a Computer Architecture engineer from Qamishli, Kurdistan. I specialize in digital logic design (VHDL), embedded systems, full-stack web development (React, Laravel, Django), and AI/ML with TensorFlow.",
+    "skills": "Skills: VHDL, C/C++, Python, JavaScript, TypeScript, React, Laravel, Django, Docker, TensorFlow, Arduino, Altium, Figma, and more.",
+    "projects": "Featured projects: Spider-Robot (hexapod robot), RV32I-Pipelined-CPU (RISC-V processor), face-detection (Python), School-Management-System.",
+    "contact": "Email: MrRobot02@duck.com | GitHub: github.com/Lawand02 | X: @yousef_lawand",
+    "social": "GitHub: github.com/Lawand02 | X: @yousef_lawand | Instagram: @yousef_lawand02",
+    "notFound": "Command not found. Type 'help' for available commands."
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's Work Together",
+    "name": "Your Name",
+    "email": "Your Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! I'll get back to you soon.",
+    "error": "Something went wrong. Please try again.",
+    "validation": {
+      "name": "Name is required",
+      "email": "Please enter a valid email",
+      "subject": "Subject is required",
+      "message": "Message is required"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Thoughts & Insights",
+    "readMore": "Read More",
+    "noPosts": "No posts yet. Check back soon!",
+    "backToBlog": "Back to Blog",
+    "publishedOn": "Published on"
+  },
+  "now": {
+    "title": "Now",
+    "subtitle": "What I'm Currently Doing",
+    "working": "Currently Working On",
+    "learning": "Currently Learning",
+    "reading": "Currently Reading",
+    "building": "Currently Building",
+    "workingDesc": "Searching about AI models and research — exploring machine learning architectures and deep learning techniques.",
+    "learningDesc": "Advanced computer architecture concepts and cloud-native development.",
+    "readingDesc": "Computer Organization and Design by Patterson & Hennessy",
+    "buildingDesc": "This portfolio, open-source contributions, and embedded systems projects."
+  },
+  "footer": {
+    "contact": "Contact",
+    "copyright": "All rights reserved.",
+    "builtWith": "Built with Next.js, Tailwind CSS, and Framer Motion"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "en": "English",
+    "ku": "Kurdî",
+    "ar": "العربية",
+    "de": "Deutsch"
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What People Say",
+    "placeholder": "Testimonials coming soon..."
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "nav": {
+    "home": "Destpêk",
+    "about": "Der barê min",
+    "skills": "Jêhatîbûn",
+    "projects": "Proje",
+    "github": "GitHub",
+    "experience": "Tecribe",
+    "achievements": "Destkeftî",
+    "blog": "Blog",
+    "now": "Niha",
+    "contact": "Têkilî"
+  },
+  "hero": {
+    "greeting": "Silav, ez im",
+    "name": "Lawand Yousef",
+    "tagline": "Endezyarê Mîmariya Kompîturê & Pêşdebirê Full-Stack",
+    "description": "Ez pergalên dîjîtal diçêlim û sepanên webê yên nûjen ava dikim. Bi dilgermî li sînorên hardware û nermalavê digerim.",
+    "viewProjects": "Projeyan Bibîne",
+    "contactMe": "Têkiliyê Li Min Bike",
+    "downloadResume": "CV-yê Dakêşîne",
+    "scrollDown": "Berjêr biçe"
+  },
+  "about": {
+    "title": "Der barê min",
+    "subtitle": "Ez kî me",
+    "description": "Ez endezyarê mîmariya kompîturê ji Efrînê, niha li Qamişlo, Kurdistanê dijîm, bi dilgermiyek kûr ji bo sêwirana mentiqî ya dîjîtal, pergalên embedded, û pêşvebirina webê ya full-stack. Karê min ji sêwirana pêvajoyên RISC-V yên pipelined bi VHDL bigire heya avakirina sepanên webê yên nûjen bi React û Laravel.",
+    "mission": "Ez bawer dikim ku divê valahiya di navbera hardware û nermalavê de were dagirtin - afirandina pergalên bikêrhatî û jîr ên ku pirsgirêkên rastîn çareser dikin.",
+    "location": "📍 Li Qamişlo, Kurdistanê dijîm",
+    "origin": "📍 Ji Efrîn, Kurdistanê",
+    "company": "Acornassociated",
+    "focus": "Mîmariya Kompîturê",
+    "email": "MrRobot02@duck.com",
+    "projects": "Proje",
+    "experience": "Tecribe",
+    "technologies": "Teknolojî",
+    "languages": "Ziman"
+  },
+  "skills": {
+    "title": "Jêhatîbûn & Pisporî",
+    "subtitle": "Teknolojiyên Ku Ez Bi Wan Re Dixebitim",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "devops": "DevOps & Amûr",
+    "hardware": "Hardware & Embedded",
+    "ai": "AI & Fêrbûna Makîneyê",
+    "design": "Sêwirandin",
+    "databases": "Database",
+    "languages": "Zimanên Bernamekirinê"
+  },
+  "projects": {
+    "title": "Projeyên Taybet",
+    "subtitle": "Tiştên Min Avakirine",
+    "all": "Hemû",
+    "web": "Web",
+    "hardware": "Hardware",
+    "vhdl": "VHDL",
+    "ai": "AI/ML",
+    "embedded": "Embedded",
+    "python": "Python",
+    "viewProject": "Projeyê Bibîne",
+    "viewGithub": "GitHub",
+    "liveDemo": "Demo",
+    "noProjects": "Ji bo vê parzûnê tu proje nehatin dîtin."
+  },
+  "github": {
+    "title": "Çalakiya GitHub",
+    "subtitle": "Rêwîtiya Pêşvebirina Min",
+    "contributions": "Beşdarî",
+    "repos": "Depo",
+    "stars": "Stêrk",
+    "forks": "Çetel",
+    "topLanguages": "Zimanên Herî Zêde",
+    "contributionGraph": "Grafika Beşdariyê",
+    "lastYear": "Beşdariyên sala borî"
+  },
+  "experience": {
+    "title": "Tecribe",
+    "subtitle": "Rêwîtiya Kariyera Min",
+    "freelance": "Karê Serbixwe",
+    "opensource": "Çavkaniya Vekirî",
+    "present": "Niha"
+  },
+  "achievements": {
+    "title": "Destkeftî",
+    "subtitle": "Sertîfîka & Xelat",
+    "viewCredential": "Sertîfîkayê Bibîne"
+  },
+  "terminal": {
+    "title": "Termînala Înteraktîf",
+    "subtitle": "'help' binivîse ji bo ku li ser min fêr bibî",
+    "help": "Fermanên berdest: about, skills, projects, contact, social, clear, help",
+    "intro": "Bi xêr hatî termînala înteraktîf a Lawand. 'help' binivîse ji bo dîtina fermanan.",
+    "about": "Ez endezyarê mîmariya kompîturê ji Qamişlo, Kurdistanê me. Di sêwirana mentiqî ya dîjîtal (VHDL), pergalên embedded, pêşvebirina webê ya full-stack (React, Laravel, Django), û AI/ML bi TensorFlow de pispor im.",
+    "skills": "Jêhatîbûn: VHDL, C/C++, Python, JavaScript, TypeScript, React, Laravel, Django, Docker, TensorFlow, Arduino, Altium, Figma, û hêj bêtir.",
+    "projects": "Projeyên taybet: Spider-Robot (robota hexapod), RV32I-Pipelined-CPU (pêvajoya RISC-V), face-detection (Python), School-Management-System.",
+    "contact": "E-mail: MrRobot02@duck.com | GitHub: github.com/Lawand02 | X: @yousef_lawand",
+    "social": "GitHub: github.com/Lawand02 | X: @yousef_lawand | Instagram: @yousef_lawand02",
+    "notFound": "Ferman nehat dîtin. Ji bo fermanan 'help' binivîse."
+  },
+  "contact": {
+    "title": "Têkiliyê Li Min Bike",
+    "subtitle": "Bila Em Bi Hev re Bixebitin",
+    "name": "Navê Te",
+    "email": "E-maila Te",
+    "subject": "Mijar",
+    "message": "Peyama Te",
+    "send": "Peyamê Bişîne",
+    "sending": "Tê şandin...",
+    "success": "Peyam bi serfirazî hate şandin! Dê bi te re têkevim têkiliyê.",
+    "error": "Tiştek xelet çû. Ji kerema xwe dîsa biceribîne.",
+    "validation": {
+      "name": "Nav pêwîst e",
+      "email": "Ji kerema xwe e-mailek rast binivîse",
+      "subject": "Mijar pêwîst e",
+      "message": "Peyam pêwîst e"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Raman & Nêrîn",
+    "readMore": "Zêdetir Bixwîne",
+    "noPosts": "Hêj tu nivîs tune. Careke din binêre!",
+    "backToBlog": "Vegere Blogê",
+    "publishedOn": "Roja weşanê"
+  },
+  "now": {
+    "title": "Niha",
+    "subtitle": "Ez Niha Çi Dikim",
+    "working": "Niha Li Ser Tiştekî Dixebitim",
+    "learning": "Niha Dixwînim",
+    "reading": "Niha Dixwînim",
+    "building": "Niha Ava Dikim",
+    "workingDesc": "Sêwirana RISC-V CPU xwe baştir dikim û portfoliyoyek nû ava dikim.",
+    "learningDesc": "Konseptên pêşketî yên mîmariya kompîturê û pêşvebirina cloud-native.",
+    "readingDesc": "Computer Organization and Design ji Patterson & Hennessy",
+    "buildingDesc": "Vê portfoliyoyê, beşdariyên çavkaniya vekirî, û projeyên pergalên embedded."
+  },
+  "footer": {
+    "contact": "Têkilî",
+    "copyright": "Hemû maf parastî ne.",
+    "builtWith": "Bi Next.js, Tailwind CSS, û Framer Motion hate çêkirin"
+  },
+  "theme": {
+    "light": "Ronahî",
+    "dark": "Tarî",
+    "system": "Sîstem"
+  },
+  "language": {
+    "en": "English",
+    "ku": "Kurdî",
+    "ar": "العربية",
+    "de": "Deutsch"
+  },
+  "testimonials": {
+    "title": "Şahidî",
+    "subtitle": "Tiştên Kesên Din Dibêjin",
+    "placeholder": "Şahidî zû de tên..."
+  }
+}

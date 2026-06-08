@@ -1,0 +1,45 @@
+---
+title: "Building a RISC-V CPU in VHDL"
+date: "2025-09-15"
+excerpt: "A deep dive into designing a five-stage pipelined RISC-V RV32I processor using VHDL, covering architecture, hazard detection, and FPGA synthesis."
+tags: ["VHDL", "RISC-V", "Hardware", "FPGA"]
+---
+
+# Building a RISC-V CPU in VHDL
+
+In this post, I'll walk through my experience designing a synthesizable, five-stage pipelined 32-bit RISC-V processor using VHDL.
+
+## Architecture Overview
+
+The RV32I base integer instruction set includes:
+- Arithmetic operations (ADD, SUB, AND, OR, etc.)
+- Load/store operations (LB, LH, LW, LBU, LHU, SB, SH, SW)
+- Branches (BEQ, BNE, BLT, BGE, BLTU, BGEU)
+- Jump instructions (JAL, JALR)
+- Upper immediate instructions (LUI, AUIPC)
+
+## Pipeline Stages
+
+The processor implements a classic 5-stage pipeline:
+
+1. **Fetch (IF)** - Instruction fetch from memory
+2. **Decode (ID)** - Instruction decode and register read
+3. **Execute (EX)** - ALU operations and branch resolution
+4. **Memory (MEM)** - Data memory access
+5. **Writeback (WB)** - Register writeback
+
+## Hazard Detection
+
+To handle data hazards, I implemented:
+- **Forwarding unit** - Forwarding results from EX/MEM and MEM/WB stages
+- **Stall logic** - For load-use hazards
+- **Branch prediction** - Static not-taken with flush on misprediction
+
+## Testing
+
+The design was tested with:
+- Individual instruction testing
+- Pipeline hazard test cases
+- A small benchmark program running on the simulated CPU
+
+The complete source code is available on [GitHub](https://github.com/Lawand02/RV32I-Pipelined-CPU).

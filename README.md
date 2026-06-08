@@ -1,36 +1,141 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lawand Yousef - Portfolio
+
+A modern, professional portfolio website built with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion.
+
+## Features
+
+- 🌍 **Multi-language**: English, Kurdish (Latin), Arabic (RTL), German
+- 🌓 **Dark/Light Mode**: Full theme toggle with system preference detection
+- ⚡ **Fast & SEO-friendly**: Static export, Open Graph, sitemap, structured data
+- 🎨 **Modern Design**: Gradient themes, smooth animations, responsive
+- 💻 **Interactive Terminal**: CLI-style section to learn about me
+- 📊 **GitHub Dashboard**: Contribution graph, language stats, repo stats
+- 📝 **Blog**: MDX-ready with sample post
+- 📬 **Contact Form**: EmailJS integration with validation
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Next.js 15 | Framework (static export) |
+| TypeScript | Type safety |
+| Tailwind CSS v4 | Styling |
+| Framer Motion | Animations |
+| next-intl | Internationalization |
+| Shadcn/UI | UI components |
+| EmailJS | Contact form |
+| Lucide React | Icons |
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 20+
+- npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Environment Variables
+
+Copy `.env.example` to `.env.local` and fill in your values:
+
+```bash
+cp .env.example .env.local
+```
+
+Required for contact form:
+- `NEXT_PUBLIC_EMAILJS_SERVICE_ID` - Your EmailJS service ID
+- `NEXT_PUBLIC_EMAILJS_TEMPLATE_ID` - Your EmailJS template ID
+- `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY` - Your EmailJS public key
+
+### Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The static output will be in the `out/` directory.
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+### GitHub Pages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Push to the `main` branch
+2. GitHub Actions will automatically build and deploy to GitHub Pages
+3. Configure your repository Settings > Pages to use GitHub Actions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Manual GitHub Pages Deploy
 
-## Deploy on Vercel
+```bash
+npm run build
+# Push the out/ directory to the gh-pages branch
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Connect your repository to Vercel
+2. Set `NEXT_PUBLIC_SITE_URL` environment variable
+3. Deploy
+
+### Netlify
+
+1. Connect your repository to Netlify
+2. Set build command: `npm run build`
+3. Set publish directory: `out`
+4. Add redirect rule: `/* /index.html 200` for SPA support
+
+## Project Structure
+
+```
+portfolio/
+├── public/
+│   └── locales/          # Translation files (en, ku, ar, de)
+├── posts/                # MDX blog posts
+├── src/
+│   ├── app/
+│   │   ├── [locale]/     # Localized routes
+│   │   │   ├── blog/     # Blog pages
+│   │   │   ├── now/      # Now page
+│   │   │   └── page.tsx  # Main portfolio page
+│   │   ├── sitemap.ts
+│   │   └── robots.ts
+│   ├── components/
+│   │   ├── layout/       # Navbar, Footer, ThemeProvider
+│   │   ├── sections/     # Hero, About, Skills, Projects, etc.
+│   │   ├── ui/           # Shadcn UI components
+│   │   └── unique/       # CareerTimeline, TechShowcase, NowPage
+│   ├── config/           # Site config, skills, projects, achievements
+│   ├── i18n/             # Internationalization setup
+│   └── lib/              # Utilities
+├── .env.example
+└── README.md
+```
+
+## Contact Form Setup (EmailJS)
+
+1. Sign up at [EmailJS](https://www.emailjs.com/)
+2. Create an email service (Gmail, Outlook, etc.)
+3. Create an email template with variables: `from_name`, `from_email`, `subject`, `message`
+4. Copy your Service ID, Template ID, and Public Key to `.env.local`
+
+## Customization
+
+- Edit `src/config/site.ts` for personal info
+- Edit `src/config/skills.ts` for skills data
+- Edit `src/config/projects.ts` for project data
+- Edit `src/config/achievements.ts` for experience & achievements
+- Edit `public/locales/*.json` for translations
+
+## License
+
+MIT
