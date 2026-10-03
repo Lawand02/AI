@@ -19,7 +19,7 @@ export const siteConfig = {
     github: "https://github.com/Lawand02",
     twitter: "https://x.com/yousef_lawand",
     instagram: "https://www.instagram.com/yousef_lawand02",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/lawand-yousef-300567425/?isSelfProfile=true",
   },
   stats: {
     projects: 8,

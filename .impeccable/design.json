@@ -1,0 +1,547 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-03T09:00:00.000Z",
+  "title": "Design System: Lawand Yousef — Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "bench-indigo": {
+        "role": "primary",
+        "displayName": "Bench Indigo",
+        "canonical": "oklch(0.45 0.2 280)",
+        "tonalRamp": [
+          "oklch(0.15 0.2 280)",
+          "oklch(0.26 0.2 280)",
+          "oklch(0.37 0.2 280)",
+          "oklch(0.48 0.2 280)",
+          "oklch(0.6 0.2 280)",
+          "oklch(0.71 0.2 280)",
+          "oklch(0.83 0.2 280)",
+          "oklch(0.95 0.2 280)"
+        ]
+      },
+      "bench-indigo-bright": {
+        "role": "primary",
+        "displayName": "Bench Indigo (dark)",
+        "canonical": "oklch(0.6 0.25 280)",
+        "tonalRamp": [
+          "oklch(0.15 0.25 280)",
+          "oklch(0.26 0.25 280)",
+          "oklch(0.37 0.25 280)",
+          "oklch(0.48 0.25 280)",
+          "oklch(0.6 0.25 280)",
+          "oklch(0.71 0.25 280)",
+          "oklch(0.83 0.25 280)",
+          "oklch(0.95 0.25 280)"
+        ]
+      },
+      "probe-cyan": {
+        "role": "secondary",
+        "displayName": "Probe Cyan",
+        "canonical": "oklch(0.7 0.15 200)",
+        "tonalRamp": [
+          "oklch(0.15 0.15 200)",
+          "oklch(0.26 0.15 200)",
+          "oklch(0.37 0.15 200)",
+          "oklch(0.48 0.15 200)",
+          "oklch(0.6 0.15 200)",
+          "oklch(0.71 0.15 200)",
+          "oklch(0.83 0.15 200)",
+          "oklch(0.95 0.15 200)"
+        ]
+      },
+      "probe-cyan-bright": {
+        "role": "secondary",
+        "displayName": "Probe Cyan (dark)",
+        "canonical": "oklch(0.55 0.2 200)",
+        "tonalRamp": [
+          "oklch(0.15 0.2 200)",
+          "oklch(0.26 0.2 200)",
+          "oklch(0.37 0.2 200)",
+          "oklch(0.48 0.2 200)",
+          "oklch(0.6 0.2 200)",
+          "oklch(0.71 0.2 200)",
+          "oklch(0.83 0.2 200)",
+          "oklch(0.95 0.2 200)"
+        ]
+      },
+      "orchid-magenta": {
+        "role": "tertiary",
+        "displayName": "Orchid Magenta",
+        "canonical": "oklch(0.6 0.18 320)",
+        "tonalRamp": [
+          "oklch(0.15 0.18 320)",
+          "oklch(0.26 0.18 320)",
+          "oklch(0.37 0.18 320)",
+          "oklch(0.48 0.18 320)",
+          "oklch(0.6 0.18 320)",
+          "oklch(0.71 0.18 320)",
+          "oklch(0.83 0.18 320)",
+          "oklch(0.95 0.18 320)"
+        ]
+      },
+      "orchid-magenta-bright": {
+        "role": "tertiary",
+        "displayName": "Orchid Magenta (dark)",
+        "canonical": "oklch(0.5 0.22 320)",
+        "tonalRamp": [
+          "oklch(0.15 0.22 320)",
+          "oklch(0.26 0.22 320)",
+          "oklch(0.37 0.22 320)",
+          "oklch(0.48 0.22 320)",
+          "oklch(0.6 0.22 320)",
+          "oklch(0.71 0.22 320)",
+          "oklch(0.83 0.22 320)",
+          "oklch(0.95 0.22 320)"
+        ]
+      },
+      "fault-red": {
+        "role": "destructive",
+        "displayName": "Fault Red",
+        "canonical": "oklch(0.577 0.245 27.325)",
+        "tonalRamp": [
+          "oklch(0.15 0.245 27.325)",
+          "oklch(0.26 0.245 27.325)",
+          "oklch(0.37 0.245 27.325)",
+          "oklch(0.48 0.245 27.325)",
+          "oklch(0.6 0.245 27.325)",
+          "oklch(0.71 0.245 27.325)",
+          "oklch(0.83 0.245 27.325)",
+          "oklch(0.95 0.245 27.325)"
+        ]
+      },
+      "fault-red-bright": {
+        "role": "destructive",
+        "displayName": "Fault Red (dark)",
+        "canonical": "oklch(0.704 0.191 22.216)",
+        "tonalRamp": [
+          "oklch(0.15 0.191 22.216)",
+          "oklch(0.26 0.191 22.216)",
+          "oklch(0.37 0.191 22.216)",
+          "oklch(0.48 0.191 22.216)",
+          "oklch(0.6 0.191 22.216)",
+          "oklch(0.71 0.191 22.216)",
+          "oklch(0.83 0.191 22.216)",
+          "oklch(0.95 0.191 22.216)"
+        ]
+      },
+      "workbench": {
+        "role": "neutral",
+        "displayName": "Workbench",
+        "canonical": "oklch(0.98 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0 0)",
+          "oklch(0.26 0 0)",
+          "oklch(0.37 0 0)",
+          "oklch(0.48 0 0)",
+          "oklch(0.6 0 0)",
+          "oklch(0.71 0 0)",
+          "oklch(0.83 0 0)",
+          "oklch(0.95 0 0)"
+        ]
+      },
+      "cold-cathode": {
+        "role": "neutral",
+        "displayName": "Cold Cathode",
+        "canonical": "oklch(0.11 0.01 260)",
+        "tonalRamp": [
+          "oklch(0.15 0.01 260)",
+          "oklch(0.26 0.01 260)",
+          "oklch(0.37 0.01 260)",
+          "oklch(0.48 0.01 260)",
+          "oklch(0.6 0.01 260)",
+          "oklch(0.71 0.01 260)",
+          "oklch(0.83 0.01 260)",
+          "oklch(0.95 0.01 260)"
+        ]
+      },
+      "panel-light": {
+        "role": "neutral",
+        "displayName": "Panel (light)",
+        "canonical": "oklch(1 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0 0)",
+          "oklch(0.26 0 0)",
+          "oklch(0.37 0 0)",
+          "oklch(0.48 0 0)",
+          "oklch(0.6 0 0)",
+          "oklch(0.71 0 0)",
+          "oklch(0.83 0 0)",
+          "oklch(0.95 0 0)"
+        ]
+      },
+      "panel-dark": {
+        "role": "neutral",
+        "displayName": "Panel (dark)",
+        "canonical": "oklch(0.16 0.02 260)",
+        "tonalRamp": [
+          "oklch(0.15 0.02 260)",
+          "oklch(0.26 0.02 260)",
+          "oklch(0.37 0.02 260)",
+          "oklch(0.48 0.02 260)",
+          "oklch(0.6 0.02 260)",
+          "oklch(0.71 0.02 260)",
+          "oklch(0.83 0.02 260)",
+          "oklch(0.95 0.02 260)"
+        ]
+      },
+      "trace": {
+        "role": "neutral",
+        "displayName": "Trace",
+        "canonical": "oklch(0.145 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0 0)",
+          "oklch(0.26 0 0)",
+          "oklch(0.37 0 0)",
+          "oklch(0.48 0 0)",
+          "oklch(0.6 0 0)",
+          "oklch(0.71 0 0)",
+          "oklch(0.83 0 0)",
+          "oklch(0.95 0 0)"
+        ]
+      },
+      "trace-bright": {
+        "role": "neutral",
+        "displayName": "Trace (inverse)",
+        "canonical": "oklch(0.985 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0 0)",
+          "oklch(0.26 0 0)",
+          "oklch(0.37 0 0)",
+          "oklch(0.48 0 0)",
+          "oklch(0.6 0 0)",
+          "oklch(0.71 0 0)",
+          "oklch(0.83 0 0)",
+          "oklch(0.95 0 0)"
+        ]
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "canonical": "oklch(0.556 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0 0)",
+          "oklch(0.26 0 0)",
+          "oklch(0.37 0 0)",
+          "oklch(0.48 0 0)",
+          "oklch(0.6 0 0)",
+          "oklch(0.71 0 0)",
+          "oklch(0.83 0 0)",
+          "oklch(0.95 0 0)"
+        ]
+      },
+      "graphite-cool": {
+        "role": "neutral",
+        "displayName": "Graphite (cool)",
+        "canonical": "oklch(0.65 0.02 260)",
+        "tonalRamp": [
+          "oklch(0.15 0.02 260)",
+          "oklch(0.26 0.02 260)",
+          "oklch(0.37 0.02 260)",
+          "oklch(0.48 0.02 260)",
+          "oklch(0.6 0.02 260)",
+          "oklch(0.71 0.02 260)",
+          "oklch(0.83 0.02 260)",
+          "oklch(0.95 0.02 260)"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(0.922 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0 0)",
+          "oklch(0.26 0 0)",
+          "oklch(0.37 0 0)",
+          "oklch(0.48 0 0)",
+          "oklch(0.6 0 0)",
+          "oklch(0.71 0 0)",
+          "oklch(0.83 0 0)",
+          "oklch(0.95 0 0)"
+        ]
+      },
+      "hairline-dark": {
+        "role": "neutral",
+        "displayName": "Hairline (dark, alpha)",
+        "canonical": "oklch(1 0 0 / 10%)",
+        "tonalRamp": [
+          "oklch(1 0 0 / 4%)",
+          "oklch(1 0 0 / 8%)",
+          "oklch(1 0 0 / 12%)",
+          "oklch(1 0 0 / 18%)",
+          "oklch(1 0 0 / 26%)",
+          "oklch(1 0 0 / 38%)",
+          "oklch(1 0 0 / 55%)",
+          "oklch(1 0 0 / 75%)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero name and page titles only. One per viewport; gradient-treated when it is the personal name."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Every section title. Bold, centered, always preceded by a mono eyebrow."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card titles, project names, timeline and experience entries."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading prose only — About narrative and hero description. Capped at max-w-2xl inside the shell."
+      },
+      "ui": {
+        "displayName": "UI",
+        "purpose": "The workhorse step: card descriptions, nav links, form fields, button labels."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Badges, stat captions, language levels, footer column headings. Never uppercase."
+      },
+      "eyebrow": {
+        "displayName": "Eyebrow",
+        "purpose": "The mono line above every section headline, in Bench Indigo. Also years, percentages, terminal text."
+      }
+    },
+    "shadows": [
+      {
+        "name": "hairline-ring",
+        "value": "0 0 0 1px oklch(0.145 0 0 / 10%)",
+        "purpose": "The system's primary separation device, applied as ring-1 ring-foreground/10. Every ui primitive at rest; the Flat-By-Default Rule in one value."
+      },
+      {
+        "name": "popover-lift",
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "purpose": "The only resting shadow in the system. Floating select and dropdown popups, which physically detach from the page."
+      },
+      {
+        "name": "accent-glow",
+        "value": "0 0 30px rgba(99, 102, 241, 0.3)",
+        "purpose": "Diffuse emission under accent elements on hover or focus. Widens to 0 0 40px rgba(99,102,241,0.2) in dark mode. Never a resting property."
+      },
+      {
+        "name": "chip-drop",
+        "value": "drop-shadow(0 1px 1px rgb(0 0 0 / 0.05))",
+        "purpose": "Keeps white text legible on the saturated gradient chips in the tech marquee."
+      }
+    ],
+    "motion": [
+      {
+        "name": "reveal-up",
+        "value": "opacity 0→1, y 40→0, 500ms ease-out",
+        "purpose": "Section heading and card entrance on whileInView, once, with a 100px negative viewport margin."
+      },
+      {
+        "name": "reveal-card",
+        "value": "opacity 0→1, y 20→0, 500ms, 100ms stagger",
+        "purpose": "Hero and Now-page cards. Index-based delay of 0.1s per item."
+      },
+      {
+        "name": "reveal-slide",
+        "value": "opacity 0→1, x ±40→0, 500ms ease-out",
+        "purpose": "Two-column About and GitHub Activity panels entering from their own side."
+      },
+      {
+        "name": "bar-fill",
+        "value": "width 0→N%, 1000ms, 200ms delay",
+        "purpose": "Skill meters and GitHub language bars filling once in view."
+      },
+      {
+        "name": "grid-filter",
+        "value": "layout animation, 300ms, scale 0.9↔1",
+        "purpose": "Project filter transitions as cards enter and leave the grid."
+      },
+      {
+        "name": "state-tint",
+        "value": "background-color / border-color / color 150ms ease",
+        "purpose": "Default Tailwind transition for hover and focus state changes across the system."
+      },
+      {
+        "name": "menu-reveal",
+        "value": "height 0→auto + opacity, 150ms ease",
+        "purpose": "Mobile navigation panel opening and closing below the md breakpoint."
+      },
+      {
+        "name": "marquee",
+        "value": "x 0%→-50%, 30000ms linear infinite",
+        "purpose": "TechShowcase chip ticker. The only looping motion in the system."
+      },
+      {
+        "name": "caret-blink",
+        "value": "opacity 1→0.5, 2000ms ease-in-out infinite",
+        "purpose": "The pulsing block cursor in the hero typewriter line and terminal prompt."
+      },
+      {
+        "name": "popover-in",
+        "value": "fade + zoom 95→100, 100ms",
+        "purpose": "tw-animate-css entrance for dialogs, selects, and dropdown popups."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Button — Primary",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one action a screen wants taken. Bench Indigo fill, 32px tall, 10px radius, near-white text.",
+      "html": "<button class=\"ds-btn-primary\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"6\" x2=\"6\" y1=\"3\" y2=\"15\"/><circle cx=\"18\" cy=\"6\" r=\"3\"/><circle cx=\"6\" cy=\"18\" r=\"3\"/><path d=\"M18 9a9 9 0 0 1-9 9\"/></svg>View Projects</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:32px;padding:0 10px;font-family:var(--font-geist-sans,\"Geist\"),system-ui,sans-serif;font-size:0.875rem;font-weight:500;line-height:1.25;color:var(--primary-foreground,oklch(0.985 0 0));background:var(--primary,oklch(0.45 0.2 280));border:1px solid transparent;border-radius:10px;cursor:pointer;transition:background-color 150ms ease,transform 150ms ease;}.ds-btn-primary svg{width:16px;height:16px;flex-shrink:0;}.ds-btn-primary:hover{background:color-mix(in oklch,var(--primary,oklch(0.45 0.2 280)) 80%,transparent);}.ds-btn-primary:active{transform:translateY(1px);}.ds-btn-primary:focus-visible{outline:none;border-color:var(--ring,oklch(0.45 0.2 280));box-shadow:0 0 0 3px color-mix(in oklch,var(--ring,oklch(0.45 0.2 280)) 50%,transparent);}.ds-btn-primary:disabled{opacity:0.5;pointer-events:none;}"
+    },
+    {
+      "name": "Button — Secondary",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Probe Cyan fill with dark text. The secondary action — hover tints 5% toward the foreground rather than darkening.",
+      "html": "<button class=\"ds-btn-secondary\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"/><path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"/></svg>Contact Me</button>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:32px;padding:0 10px;font-family:var(--font-geist-sans,\"Geist\"),system-ui,sans-serif;font-size:0.875rem;font-weight:500;line-height:1.25;color:var(--secondary-foreground,oklch(0.205 0 0));background:var(--secondary,oklch(0.7 0.15 200));border:1px solid transparent;border-radius:10px;cursor:pointer;transition:background-color 150ms ease,transform 150ms ease;}.ds-btn-secondary svg{width:16px;height:16px;flex-shrink:0;}.ds-btn-secondary:hover{background:color-mix(in oklch,var(--secondary,oklch(0.7 0.15 200)) 95%,var(--foreground,#000));}.ds-btn-secondary:active{transform:translateY(1px);}.ds-btn-secondary:focus-visible{outline:none;border-color:var(--ring,oklch(0.45 0.2 280));box-shadow:0 0 0 3px color-mix(in oklch,var(--ring,oklch(0.45 0.2 280)) 50%,transparent);}"
+    },
+    {
+      "name": "Button — Outline",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Hairline stroke on the page surface. Hover fills muted and returns text to full contrast. Used for filters and tertiary actions.",
+      "html": "<button class=\"ds-btn-outline\">Download Resume</button>",
+      "css": ".ds-btn-outline{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:32px;padding:0 10px;font-family:var(--font-geist-sans,\"Geist\"),system-ui,sans-serif;font-size:0.875rem;font-weight:500;line-height:1.25;color:var(--foreground,oklch(0.145 0 0));background:var(--background,oklch(0.98 0 0));border:1px solid var(--border,oklch(0.922 0 0));border-radius:10px;cursor:pointer;transition:background-color 150ms ease,color 150ms ease;}.ds-btn-outline:hover{background:var(--muted,oklch(0.97 0 0));}.ds-btn-outline:active{transform:translateY(1px);}.ds-btn-outline:focus-visible{outline:none;border-color:var(--ring,oklch(0.45 0.2 280));box-shadow:0 0 0 3px color-mix(in oklch,var(--ring,oklch(0.45 0.2 280)) 50%,transparent);}.ds-btn-outline[aria-expanded=\"true\"]{background:var(--muted,oklch(0.97 0 0));}"
+    },
+    {
+      "name": "Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Flat container with a hairline ring and no shadow. Hover shifts the border to Bench Indigo rather than lifting.",
+      "html": "<article class=\"ds-card\"><header class=\"ds-card-head\"><h3 class=\"ds-card-title\">RV32I Pipelined CPU</h3></header><p class=\"ds-card-body\">A five-stage pipelined processor core written in VHDL, with hazard detection and forwarding.</p><div class=\"ds-card-tags\"><span class=\"ds-badge\">VHDL</span><span class=\"ds-badge\">RISC-V</span></div></article>",
+      "css": ".ds-card{display:flex;flex-direction:column;gap:12px;padding:20px;font-family:var(--font-geist-sans,\"Geist\"),system-ui,sans-serif;font-size:0.875rem;color:var(--card-foreground,oklch(0.145 0 0));background:var(--card,oklch(1 0 0));border:1px solid color-mix(in oklch,var(--foreground,#000) 10%,transparent);border-radius:14px;transition:border-color 150ms ease;}.ds-card:hover{border-color:color-mix(in oklch,var(--primary,oklch(0.45 0.2 280)) 50%,transparent);}.ds-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;}.ds-card-title{margin:0;font-size:1.125rem;font-weight:600;line-height:1.4;color:var(--foreground,oklch(0.145 0 0));transition:color 150ms ease;}.ds-card:hover .ds-card-title{color:var(--primary,oklch(0.45 0.2 280));}.ds-card-body{margin:0;line-height:1.25;color:var(--muted-foreground,oklch(0.556 0 0));}.ds-card-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px;}.ds-badge{display:inline-flex;align-items:center;height:20px;padding:2px 8px;font-family:var(--font-geist-sans,\"Geist\"),system-ui,sans-serif;font-size:0.75rem;font-weight:500;line-height:1;color:var(--secondary-foreground,oklch(0.205 0 0));background:var(--secondary,oklch(0.7 0.15 200));border-radius:26px;white-space:nowrap;}"
+    },
+    {
+      "name": "Badge — Secondary",
+      "kind": "chip",
+      "refersTo": "badge-secondary",
+      "description": "Fully round 20px pill used as a technology tag. Labels only — a chip that needs to filter is an outline button.",
+      "html": "<span class=\"ds-badge\">TypeScript</span><span class=\"ds-badge\">Next.js</span><span class=\"ds-badge\">PostgreSQL</span>",
+      "css": ".ds-badge{display:inline-flex;align-items:center;justify-content:center;gap:4px;height:20px;padding:2px 8px;font-family:var(--font-geist-sans,\"Geist\"),system-ui,sans-serif;font-size:0.75rem;font-weight:500;line-height:1;color:var(--secondary-foreground,oklch(0.205 0 0));background:var(--secondary,oklch(0.7 0.15 200));border:1px solid transparent;border-radius:26px;white-space:nowrap;transition:background-color 150ms ease;}.ds-badge:hover{background:color-mix(in oklch,var(--secondary,oklch(0.7 0.15 200)) 80%,transparent);}"
+    },
+    {
+      "name": "Input Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "42px field — deliberately taller than a button, because a field is a target. Error state shifts border and ring to Fault Red.",
+      "html": "<div class=\"ds-field\"><input class=\"ds-input\" type=\"email\" placeholder=\"you@example.com\"><p class=\"ds-field-error\">Enter a valid email address.</p></div>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:4px;max-width:280px;}.ds-input{width:100%;height:42px;padding:10px 16px;font-family:var(--font-geist-sans,\"Geist\"),system-ui,sans-serif;font-size:0.875rem;color:var(--foreground,oklch(0.145 0 0));background:var(--background,oklch(0.98 0 0));border:1px solid var(--border,oklch(0.922 0 0));border-radius:10px;outline:none;transition:border-color 150ms ease,box-shadow 150ms ease;}.ds-input::placeholder{color:var(--muted-foreground,oklch(0.556 0 0));}.ds-input:hover{border-color:color-mix(in oklch,var(--foreground,#000) 20%,var(--border,oklch(0.922 0 0)));}.ds-input:focus{border-color:var(--primary,oklch(0.45 0.2 280));box-shadow:0 0 0 1px var(--primary,oklch(0.45 0.2 280));}.ds-field-error{margin:0;font-family:var(--font-geist-sans,\"Geist\"),system-ui,sans-serif;font-size:0.75rem;line-height:1;color:var(--destructive,oklch(0.577 0.245 27.325));}.ds-field-error:empty{display:none;}"
+    },
+    {
+      "name": "Navbar",
+      "kind": "nav",
+      "refersTo": "navbar",
+      "description": "Fixed 64px bar, translucent over the page with a 40%-alpha bottom border. Wordmark carries the signature gradient; links are Graphite.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-mark\" href=\"#\">LY</a><ul class=\"ds-nav-links\"><li><a href=\"#about\">About</a></li><li><a href=\"#skills\">Skills</a></li><li><a href=\"#projects\">Projects</a></li><li><a href=\"#contact\">Contact</a></li></ul></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 16px;background:color-mix(in oklch,var(--background,oklch(0.98 0 0)) 80%,transparent);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid color-mix(in oklch,var(--border,oklch(0.922 0 0)) 40%,transparent);font-family:var(--font-geist-sans,\"Geist\"),system-ui,sans-serif;}.ds-nav-mark{font-size:1.25rem;font-weight:700;line-height:1.25;text-decoration:none;background:linear-gradient(to right,#6366f1,#a855f7,#06b6d4);-webkit-background-clip:text;background-clip:text;color:transparent;}.ds-nav-links{display:flex;align-items:center;gap:4px;margin:0;padding:0;list-style:none;}.ds-nav-links a{display:block;padding:8px 12px;font-size:0.875rem;line-height:1.25;text-decoration:none;color:var(--muted-foreground,oklch(0.556 0 0));transition:color 150ms ease;}.ds-nav-links a:hover{color:var(--foreground,oklch(0.145 0 0));}"
+    },
+    {
+      "name": "Section Heading",
+      "kind": "custom",
+      "description": "The system's most repeated unit: a Bench Indigo mono eyebrow 8px above a bold centered headline. Used verbatim by every section.",
+      "html": "<header class=\"ds-section-head\"><p class=\"ds-eyebrow\">// 03 — capabilities</p><h2 class=\"ds-headline\">Skills &amp; Tools</h2></header>",
+      "css": ".ds-section-head{display:flex;flex-direction:column;align-items:center;gap:8px;margin:0 0 48px;font-family:var(--font-geist-sans,\"Geist\"),system-ui,sans-serif;}.ds-eyebrow{margin:0;font-family:var(--font-geist-mono,\"Geist Mono\"),ui-monospace,monospace;font-size:0.875rem;font-weight:400;line-height:1.25;color:var(--primary,oklch(0.45 0.2 280));}.ds-headline{margin:0;font-size:2.25rem;font-weight:700;line-height:1.11;color:var(--foreground,oklch(0.145 0 0));text-align:center;}"
+    },
+    {
+      "name": "Stat Tile",
+      "kind": "custom",
+      "description": "Centered icon + gradient numeral + caption. One of only three sanctioned locations for the signature gradient.",
+      "html": "<div class=\"ds-stats\"><div class=\"ds-stat\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z\"/></svg><span class=\"ds-stat-value\">10+</span><span class=\"ds-stat-label\">Projects</span></div><div class=\"ds-stat\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"/><rect width=\"20\" height=\"14\" x=\"2\" y=\"6\" rx=\"2\"/></svg><span class=\"ds-stat-value\">3+</span><span class=\"ds-stat-label\">Experience</span></div><div class=\"ds-stat\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"16 18 22 12 16 6 8 6 2 12 8 18 16 18\"/></svg><span class=\"ds-stat-value\">25+</span><span class=\"ds-stat-label\">Technologies</span></div></div>",
+      "css": ".ds-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;font-family:var(--font-geist-sans,\"Geist\"),system-ui,sans-serif;}.ds-stat{display:flex;flex-direction:column;align-items:center;gap:8px;padding:24px;text-align:center;background:var(--card,oklch(1 0 0));border:1px solid color-mix(in oklch,var(--border,oklch(0.922 0 0)) 40%,transparent);border-radius:14px;transition:border-color 150ms ease;}.ds-stat:hover{border-color:color-mix(in oklch,var(--primary,oklch(0.45 0.2 280)) 50%,transparent);}.ds-stat svg{width:32px;height:32px;color:var(--primary,oklch(0.45 0.2 280));}.ds-stat-value{font-size:1.875rem;font-weight:700;line-height:1.2;background:linear-gradient(to right,#6366f1,#a855f7,#06b6d4);-webkit-background-clip:text;background-clip:text;color:transparent;}.ds-stat-label{font-size:0.875rem;line-height:1.25;color:var(--muted-foreground,oklch(0.556 0 0));}"
+    },
+    {
+      "name": "Terminal Window",
+      "kind": "custom",
+      "refersTo": "terminal-window",
+      "description": "Signature interactive element. A quoted tool, not a site surface — it keeps its hardcoded zinc palette and stays dark in both themes.",
+      "html": "<div class=\"ds-term\"><div class=\"ds-term-bar\"><span class=\"ds-dot\" style=\"background:#ef4444\"></span><span class=\"ds-dot\" style=\"background:#eab308\"></span><span class=\"ds-dot\" style=\"background:#22c55e\"></span><span class=\"ds-term-label\">terminal</span></div><div class=\"ds-term-body\"><p class=\"ds-term-out\">Welcome. Type <span class=\"ds-term-in\">help</span> for available commands.</p><p class=\"ds-term-cmd\">$ <span class=\"ds-term-input\">skills</span><span class=\"ds-term-caret\"></span></p></div></div>",
+      "css": ".ds-term{overflow:hidden;font-family:var(--font-geist-mono,\"Geist Mono\"),ui-monospace,monospace;font-size:0.875rem;line-height:1.25;background:#09090b;color:#d4d4d8;border:1px solid color-mix(in oklch,oklch(0.145 0 0) 40%,transparent);border-radius:14px;}.ds-term-bar{display:flex;align-items:center;gap:8px;padding:8px 16px;background:#18181b;border-bottom:1px solid #27272a;}.ds-dot{width:12px;height:12px;border-radius:999px;}.ds-term-label{margin-left:8px;font-size:0.75rem;color:#71717a;}.ds-term-body{display:flex;flex-direction:column;gap:4px;height:180px;padding:16px;overflow-y:auto;}.ds-term-out{margin:0;color:#d4d4d8;}.ds-term-in{color:#4ade80;}.ds-term-cmd{margin:0;color:#4ade80;}.ds-term-input{color:#4ade80;}.ds-term-caret{display:inline-block;width:8px;height:1em;margin-left:2px;vertical-align:text-bottom;background:#4ade80;animation:ds-blink 2s ease-in-out infinite;}.ds-term-body:focus-within{outline:none;}@keyframes ds-blink{0%,100%{opacity:1}50%{opacity:0}}"
+    },
+    {
+      "name": "Timeline Node",
+      "kind": "custom",
+      "refersTo": "timeline-node",
+      "description": "48px circle on a 1px rail, with a mono Bench Indigo year above a 600-weight title. Rails carry the signature gradient on CareerTimeline, a flat hairline on Experience.",
+      "html": "<div class=\"ds-tl\"><div class=\"ds-tl-rail\"></div><div class=\"ds-tl-entry\"><div class=\"ds-tl-node\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect width=\"16\" height=\"16\" x=\"4\" y=\"4\" rx=\"2\"/><rect width=\"6\" height=\"6\" x=\"9\" y=\"9\" rx=\"1\"/><path d=\"M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2\"/></svg></div><div class=\"ds-tl-card\"><span class=\"ds-tl-year\">2024</span><h3 class=\"ds-tl-title\">RISC-V &amp; Robotics</h3><p class=\"ds-tl-body\">Designed an RV32I pipelined CPU and a spider robot platform.</p></div></div></div>",
+      "css": ".ds-tl{position:relative;padding:8px 0 0 0;font-family:var(--font-geist-sans,\"Geist\"),system-ui,sans-serif;}.ds-tl-rail{position:absolute;left:23px;top:8px;bottom:0;width:1px;background:linear-gradient(to bottom,var(--primary,oklch(0.45 0.2 280)),#a855f7,#06b6d4);}.ds-tl-entry{position:relative;display:flex;align-items:flex-start;gap:32px;}.ds-tl-node{position:relative;z-index:1;display:flex;align-items:center;justify-content:center;width:48px;height:48px;flex-shrink:0;color:var(--primary,oklch(0.45 0.2 280));background:var(--card,oklch(1 0 0));border:2px solid var(--primary,oklch(0.45 0.2 280));border-radius:999px;}.ds-tl-node svg{width:20px;height:20px;}.ds-tl-card{max-width:384px;padding:20px;background:var(--card,oklch(1 0 0));border:1px solid color-mix(in oklch,var(--border,oklch(0.922 0 0)) 40%,transparent);border-radius:14px;transition:border-color 150ms ease;}.ds-tl-card:hover{border-color:color-mix(in oklch,var(--primary,oklch(0.45 0.2 280)) 50%,transparent);}.ds-tl-year{font-family:var(--font-geist-mono,\"Geist Mono\"),ui-monospace,monospace;font-size:0.875rem;color:var(--primary,oklch(0.45 0.2 280));}.ds-tl-title{margin:4px 0 0;font-size:1.125rem;font-weight:600;line-height:1.4;color:var(--foreground,oklch(0.145 0 0));}.ds-tl-body{margin:4px 0 0;font-size:0.875rem;line-height:1.25;color:var(--muted-foreground,oklch(0.556 0 0));}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Engineer's Workbench",
+    "overview": "This system treats the portfolio as a bench, not a brochure. The substrate is graph paper — a 40px grid (bg-grid) ruled in 5%-opacity indigo, faint enough to read as paper tooth rather than as a pattern. Everything placed on it is measured: containers snap to a fixed set of widths, sections are separated by exactly 96px of air, and the accent color appears where an instrument would put a needle — the eyebrow above a heading, the border of the hovered card, the fill of the active filter. The personality comes from precision and from the two places the system deliberately breaks its own restraint: a functional terminal the visitor can type into, and a signature indigo→purple→cyan gradient that marks the wordmark, the hero name, and the stat numerals. Nowhere else.\n\nDensity is a feature. Controls default to h-8 (32px) rather than the 40–48px a marketing site would reach for, cards run at text-sm, and the mono face carries every machine-readable string — years, percentages, version-shaped metadata, terminal output. This is a site whose subject spends its days reading datasheets and waveforms, and the interface reads the same way. The result should feel like opening an instrument that is well made: quiet, legible, and more specific than it needed to be.\n\nIt is confirmed not to be the default AI-generated dark dashboard: no resting drop shadows on cards, no rainbow gradients sprayed across arbitrary surfaces, no neon-glow terminal cliché. The only shadow in the system belongs to floating popups; the only glow is a state response.",
+    "keyCharacteristics": [
+      "Flat by default. Hairline rings (ring-foreground/10) and tonal background shifts carry separation. Glow appears only as a reaction to hover or focus.",
+      "One accent does the work. Bench Indigo is the only color that acts; Probe Cyan is instrumental, Orchid Magenta is nearly unused and reserved.",
+      "Monospace as annotation. Geist Mono marks machine-readable content — never prose.",
+      "Compact instrument controls. 32px defaults, 8px gaps, no decorative elevation.",
+      "The gradient is a signature, not a fill. Three sanctioned locations, no others.",
+      "Dark mode is native. The dark palette is a cool near-black (oklch(0.11 0.01 260)), not an inverted light theme."
+    ],
+    "rules": [
+      {
+        "name": "The One Instrument Rule",
+        "body": "Bench Indigo marks the single most important element in a viewport. If two things on a screen are both indigo, one of them is wrong.",
+        "section": "colors"
+      },
+      {
+        "name": "The Cyan Is Readout Rule",
+        "body": "Probe Cyan labels information the visitor may act on secondarily — tags, secondary actions, terminal output. It is never the primary call to action on a screen that also has a Bench Indigo one.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gradient Is a Signature Rule",
+        "body": "The text-gradient sweep (indigo-500 → purple-500 → cyan-500) is licensed in exactly three places: the LY wordmark in the navbar and footer, the hero name, and the About stat numerals. It is a signature, not a fill. Anywhere else it is decoration, and decoration is what this system refuses.",
+        "section": "colors"
+      },
+      {
+        "name": "The Mono Is Annotation Rule",
+        "body": "Geist Mono is for machine-readable content — eyebrows, years, percentages, terminal prompts and output, inline metadata. A paragraph in Geist Mono is a bug.",
+        "section": "typography"
+      },
+      {
+        "name": "The Eyebrow Rule",
+        "body": "Every section opens the same way: a Bench Indigo mono eyebrow at 0.875rem, sitting 8px above a 700-weight centered headline. No section invents its own opening.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Surfaces are flat at rest. Hairline rings and tonal shifts carry separation; glow and shadow appear only as a response to state, or on a surface that has physically detached from the page.",
+        "section": "elevation"
+      },
+      {
+        "name": "The One Shadow Rule",
+        "body": "shadow-md is reserved for floating popups. A card never carries a resting shadow. If a design calls for one, the separation is being solved twice — pick the border or the tone, not both plus a shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do mark exactly one element per viewport in Bench Indigo, and let everything else be Trace or Graphite.",
+      "Do use text-gradient only on the wordmark, the hero name, and the stat numerals.",
+      "Do open every section with the mono Bench Indigo eyebrow plus a 700-weight headline, in that order.",
+      "Do separate surfaces with ring-1 ring-foreground/10 or border-border/40 before reaching for anything else.",
+      "Do keep control heights at 32px by default and shrink to 28px or 24px in dense rows.",
+      "Do reserve Geist Mono for machine-readable content — eyebrows, years, percentages, terminal text.",
+      "Do express hover as a border-color or fill-opacity change on the surface itself.",
+      "Do use the radius ladder as-is: 10px controls, 14px containers, fully round pills.",
+      "Do let the Terminal window keep its hardcoded zinc palette; it is a quotation, not a surface."
+    ],
+    "donts": [
+      "Don't put a drop shadow on a card, panel, or section. One hairline, or one tonal shift. shadow-md belongs to floating popups and nowhere else.",
+      "Don't spray the indigo→purple→cyan gradient across arbitrary surfaces, buttons, borders, or backgrounds. Three sanctioned locations, no others.",
+      "Don't reach for neon glow or terminal-green as a general aesthetic. Green exists only inside the Terminal window's prompt text.",
+      "Don't add a third decorative color. Orchid Magenta is the accent slot and stays near-unused; new color needs a role, not variety.",
+      "Don't write a paragraph, a card description, or a nav label in Geist Mono.",
+      "Don't skip the section eyebrow, restyle section headings per-section, or vary the 96px section padding.",
+      "Don't introduce a second sans or a display serif. The two-voice pairing — Geist Sans plus Geist Mono — is the whole typographic idea.",
+      "Don't use font-heading as though it were defined; it currently resolves to nothing.",
+      "Don't scale button heights up to fill marketing instinct. Compactness is the signature; density is the point."
+    ]
+  }
+}

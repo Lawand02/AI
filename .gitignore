@@ -42,3 +42,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# opencode
+/.opencode/skills/*/scripts/bin/
+/.opencode/skills/*/scripts/data/

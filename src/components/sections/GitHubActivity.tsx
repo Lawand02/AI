@@ -43,9 +43,9 @@ export function GitHubActivity() {
             </h3>
             <div className="grid grid-cols-3 gap-4 mb-6">
               {[
-                { icon: BookOpen, value: "10", key: "repos" },
+                { icon: BookOpen, value: "8", key: "repos" },
                 { icon: Star, value: "8", key: "stars" },
-                { icon: GitFork, value: "2", key: "forks" },
+                { icon: GitFork, value: "1", key: "forks" },
               ].map((stat) => (
                 <div
                   key={stat.key}
